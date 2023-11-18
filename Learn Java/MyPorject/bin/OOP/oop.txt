@@ -1,0 +1,64 @@
+*********
+method overloading                method overriging
+
+*Same name method have            *Same name method have
+ different signature               different signature
+
+*multipal methods same names      *multipal methods same names
+are in same class                  are in different class
+                    
+*no need inheritance              *no need inheritance
+
+
+ 
+*constructor no have any retur(n) type and same name of class name and create at build an object.
+
+*method overloading is there are some methods are same name and its are in same class but different signature(parameter).
+
+*method overrrinding is there are some mathods are same name and same signature but its are in different class.
+
+ 
+
+***Access modifiers
+
+private => itself
+
+default => itself , package
+
+protected => itself , child(sub classes) and package
+
+public => all can see
+
+
+***
+super key words => to call super class constructor
+man(){
+   super()
+   this.x = x;
+} 
+
+, and call super class (overrided) method to sub class
+man(){
+    super.go();
+}
+
+
+***
+upcasting => super class eke variable 1 kt sub class eke method ekk add karanawa wge seen ekk
+
+
+***
+Polymorepism => super class reference ekk through call the sub class method 
+
+ability of a variable , object or function to take on multiple forms(method overloading(compile time) and method overriding)
+
+
+***Abstraction
+abstract method => body ekk nathi methods
+abstract class cant create an object , sub class object can be reffer,Cant create constructor
+
+
+
+
+
+
